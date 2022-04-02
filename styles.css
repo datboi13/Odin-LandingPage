@@ -170,3 +170,13 @@ p {
     border-color: #f9faf8;
     padding: 0px 20px;
 }
+.copy {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    padding: 70px;
+}
+#copyc {
+    font-size: 36px;
+}
