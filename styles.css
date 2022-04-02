@@ -1,5 +1,7 @@
-* {
-    background-color: #1f2937;
+
+body {
+    margin: 0px;
+    height: fit-content;
 }
 .section1 {
     background-color: #1f2937;
@@ -8,7 +10,6 @@
     display: flex;
     flex-direction: column;
     height: 550px;
-    width: auto;
 }
 .a {
     display: flex;
@@ -76,4 +77,48 @@ button {
 p {
     width: 300px;
     margin-left: 40px;
+}
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 550;
+}
+#info {
+    align-self: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.Images {
+    border-radius: 30px;
+}
+.sport {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 125px;
+    padding: 20px;
+}
+.SportImg {
+    display: flex;
+    flex-direction: column;
+}
+.MessiImg {
+    display: flex;
+    flex-direction: column;
+}
+.UsainImg {
+    display: flex;
+    flex-direction: column;
+}
+.LerbonImg {
+    display: flex;
+    flex-direction: column;
+}
+.text {
+    margin-bottom: 0%;
+    margin-top: 15px;
+    align-self: center;
 }
